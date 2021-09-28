@@ -162,7 +162,8 @@ P
 
 .section.about {
     background-color: rgb(219, 219, 190);
-    color: grey;
+    color: rgba(27, 22, 22, 0.836);
+    max-width: 800px;
 }
 
 .section p{
