@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: 0rem;
     font-size: 16px;
 }
 
@@ -224,6 +224,7 @@ hr {
 .project h2{
     font-weight: 500;
 }
-
-
+.blog-content {
+    margin: 1rem;
+}
 
