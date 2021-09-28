@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #3d830b;
+    --off-green: #e9fce6e0;
+    --dark-gray: #6b7280d3;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    font-size: 16px;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.margin-md {
+    margin: 2rem;
+}
+P
+/** container **/
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/** links **/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    display: inline;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    color: white;
+    display: block;
+    max-width: 180px;
+    border: 0.1px solid var(--primary-color);
+    margin: 2rem 1rem 1rem 0rem;
+}
+
+.link-primary:hover {
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 0.1px solid var(--primary-color);
+}
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 180px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary:hover {
+    color:white;
+    background-color: var(--primary-color);
+    
+}
+
+/** look into BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/** navigation **/
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: xx-large;
+    cursor:pointer;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    padding-top: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+.navigation .link:hover {
+    text-decoration:underline;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+    background-color: rgba(128, 128, 128, 0.205);
+
+}
+
+.hero .hero-img {
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/** sections **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h2 {
+    text-align: left;
+    font-weight: 500;
+}
+.section span{
+    max-width: 10px;
+}
+.ow {
+    background-color: var(--off-green);
+}
+.ow:hover{
+    background-color: rgba(128, 128, 128, 0.075);
+}
+
+.section.about {
+    background-color: rgb(219, 219, 190);
+    color: grey;
+}
+
+.section p{
+    text-align: center;
+}
+hr {
+    width: 34px;
+    display: inline-block;
+    margin-right: 7px;
+    border: none;
+    border-top: 2px solid rgb(2, 201, 28);
+    padding-bottom: 4px;
+}
+/** footers **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 3rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link {
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+
+.footer a:hover {
+    font-size: 1.5rem;
+    transition: ease-in-out 300ms;
+}
+
+.project p{
+    text-align: left;
+}
+
+.project h2{
+    font-weight: 500;
+}
+
+
+

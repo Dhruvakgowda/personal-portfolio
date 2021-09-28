@@ -4,71 +4,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home | Dhruva</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>tanay's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
+    <nav class="navigation container">
+        <div class="nav-brand"><span> </span>Dhruva K Gowda<span> I></span></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-    <hr >
-    <hr>
-
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text</small> 
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-@@ -86,16 +89,35 @@ <h2>@nav</h2>
-
-    <hr>
-
-    <h2>header</h2>
-    <h2>@header</h2>
-
-    <header>
-        <img src="images/hero.svg" />
-        <h1>heading inside hero</h1>
-        <h1>heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="hero.svg" />
+        <h1 class="hero-heading">Hey there! Welcome to my <br><span class="heading-inverted">Personal Website</span>
+        </h1>
     </header>
 
-    <hr>
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section class="section about">
+        <div class="container container-center">
+            <h2>
+                <hr class="hr-beauty">About me ></h2>
+            <p><small>hey</small></p>
+        </div>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section class="section white">
+        <div class="container container-center">
+            <h2>
+                <hr class="hr-beauty">TECHNICAL SKILLS ></h2>
+            <p>Experienced in
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Flask Web-Framework</li>
+                    <li>Git</li>
+                    <li>NodeJS</li>
+                    <li>Web Hosting</li>
+                </ul>
+            </p>
+        </div>
     </section>
 
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+    <section class="section ow">
+        <div class="container container-center">
+            <h2>
+                <hr class="hr-beauty">PROJECTS ></h2>
+            <p>
+                I've Completed a number of Projects that both Showcase my skills and are quite fun to Interact with.
+                Thus, you can check-out my projects hosted online
+            </p>
+            <a class="link link-primary" href="/projects.html">Browse Projects</a>
+        </div>
+    </section>
+
+    <section class="section white">
+        <div class="container container-center">
+            <h2>
+                <hr class="hr-beauty">BLOGS ></h2>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+            </p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header"><i>-</i> You can reach me on </div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Dhruvakgowda"><i class="fab fa-github"></i>
+                    github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.instagram.com/_.dhruva.__/"><i class="fab fa-instagram"></i>
+                    instagram
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://in.linkedin.com/in/dhruva-k-gowda-619aa8213"><i
+                        class="fab fa-linkedin-square"></i>
+                    linkedin
+                </a>
+            </li>
+            <p>
+                <li class="contact"><i class="fa fa-phone-square"></i> +919483861540<span>&ensp;&ensp;&ensp;</span>
+                    <i class="fa fa-envelope-square"></i> dhruva0805@gmail.com</li>
+            </p>
         </ul>
     </footer>
-
-
-
-
-
-
-@@ -104,4 +126,5 @@ <h1>heading inside hero</h1>
-
-    </div>
 </body>
 
-</html> 
+</html>
