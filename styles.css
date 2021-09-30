@@ -21,7 +21,7 @@ hr {
     margin: 2rem;
 }
 P
-/** container **/
+
 .container {
     padding: 0rem 1rem;
 }
@@ -35,7 +35,6 @@ P
     margin: auto;
 }
 
-/** links **/
 .link {
     box-sizing: border-box;
     text-decoration: none;
@@ -74,9 +73,7 @@ P
     
 }
 
-/** look into BEM naming convention for CSS **/
 
-/** lists **/
 
 .list-non-bullet {
     list-style: none;
@@ -88,7 +85,7 @@ P
     padding: 0rem 0.5rem;
 }
 
-/** navigation **/
+
 
 .navigation {
     background-color: var(--primary-color);
@@ -118,7 +115,6 @@ P
     font-weight: bold;
 }
 
-/** header **/
 
 .hero {
     padding: 2rem;
@@ -144,7 +140,7 @@ P
     color: var(--primary-color);
 }
 
-/** sections **/
+
 
 .section {
     padding: 2rem;
@@ -180,7 +176,7 @@ hr {
     border-top: 2px solid rgb(2, 201, 28);
     padding-bottom: 4px;
 }
-/** footers **/
+
 
 .footer {
     background-color: var(--primary-color);
@@ -206,12 +202,12 @@ hr {
 }
 
 
-/** projects **/
+
 .showcase-list {
     padding: 2rem;
 }
 
-/** blogs **/
+
 .showcase-blog {
     padding-bottom: 6rem;
 }
