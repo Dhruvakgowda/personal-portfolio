@@ -20,7 +20,7 @@ hr {
 .margin-md {
     margin: 2rem;
 }
-P
+
 
 .container {
     padding: 0rem 1rem;
@@ -228,3 +228,18 @@ hr {
     margin: 1rem;
 }
 
+.blogpost {
+    width : 50%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blogpost p{
+    margin:2.5rem;
+}
+
+.head1 {
+    width : 50%;
+    margin: auto;
+    padding: 1rem;
+}
